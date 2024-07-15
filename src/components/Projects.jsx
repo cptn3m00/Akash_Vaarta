@@ -31,7 +31,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                         </p>
                     ))}
                 </div>
-                <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
+                <a href={git} target="_blank" rel="noopener noreferrer" className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
             </div>
         </div>
     );
@@ -64,15 +64,15 @@ export const project = [
         title:'Tomato',
         description:"A complete working Clone of Zomato named Tomato with different interface functions making user's usage seamless. This project is a food delivery platform that allows users to get a look at the menu, see actual consumer reviews and order seamlessly.",
         image: {projTomato},
-        git:'https://github.com/nithingooud/CoPeople',
+        git:'https://github.com/cptn3m00/Tomato_FoodDel',
         technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
     },
     {
         title:'Xpertly',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+        description:'Xpertly connects learners with mentors across various fields, enhancing personal and professional growth through seamless real-time communication, personalized mentorship programs, and progress tracking for an effective and enriching mentorship experience.',
         image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'MongoDb' ,'ReactJS' , 'NodeJS']
+        git:"https:",
+        technologies:[ 'MongoDB', 'Express.js', 'React.js', 'Node.js']
     }
 ]
 
