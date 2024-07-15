@@ -1,0 +1,41 @@
+/* Base styles for footer */
+.footer {
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    left: 0; /* Align to the left edge */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it appears above other elements */
+    background-color: #333; /* Background color */
+  }
+  
+  /* Styles for footer content */
+  .footer-content {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out elements */
+    align-items: center; /* Vertically center elements */
+  }
+  
+  /* Styles for footer text */
+  .footer-text {
+    margin-left: 20px; /* Add some margin to the left for spacing */
+  }
+  
+  /* Styles for footer icons */
+  .footer-icons {
+    margin-right: 20px; /* Add some margin to the right for spacing */
+    display: flex;
+    gap: 25px; /* Spacing between icons */
+  }
+  
+  /* Specific styles for icons */
+  .icon-link {
+    color: #fff; /* Icon color */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s, color 0.3s; /* Smooth color transition and scaling */
+  }
+  
+  .icon-link:hover {
+    color: #ff6347; /* Change color on hover (example: tomato) */
+    transform: scale(1.1); /* Slightly scale up on hover */
+  }
+  
