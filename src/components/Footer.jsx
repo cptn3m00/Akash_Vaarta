@@ -21,8 +21,8 @@ const Footer = () => {
           <a href="https://github.com/cptn3m00" target='_blank' className='icon-link'>
             <FaGithub className='text-xl' />
           </a>
-          <a href="https://twitter.com/akashtjsamajdar" target="_blank" rel="noreferrer">
-            <FaTwitter size={24} />
+          <a href="https://twitter.com/akashtjsamajdar" target="_blank" rel="noreferrer" className="icon-link">
+            <FaTwitter className="text-xl" />
           </a>
         </div>
       </div>
