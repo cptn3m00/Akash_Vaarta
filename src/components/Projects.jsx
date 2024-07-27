@@ -2,7 +2,7 @@
 import React from "react";
 import vpn from '../assets/vpn.png'
 import projTomato from '../assets/projTomato.png';
-import UrbanCart from '../assets/copeople.png'
+import UrbanCart from '../assets/UrbanCart.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
