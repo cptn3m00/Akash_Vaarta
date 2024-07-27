@@ -2,7 +2,7 @@
 import React from "react";
 import vpn from '../assets/vpn.png'
 import projTomato from '../assets/projTomato.png';
-import copeople from '../assets/copeople.png'
+import UrbanCart from '../assets/copeople.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -11,8 +11,8 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {title=='Tomato' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={projTomato} alt="" />
             </a>}
-            {title=='Xpertly' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+            {title=='UrbanCart' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={UrbanCart} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -65,13 +65,13 @@ export const project = [
         description:"A complete working Clone of Zomato named Tomato with different interface functions making user's usage seamless. This project is a food delivery platform that allows users to get a look at the menu, see actual consumer reviews and order seamlessly.",
         image: {projTomato},
         git:'https://github.com/cptn3m00/Tomato_FoodDel',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
+        technologies:['MongoDb' ,'ReactJS' , 'Express.js', 'NodeJS']
     },
     {
-        title:'Xpertly',
-        description:'Xpertly connects learners with mentors across various fields, enhancing personal and professional growth through seamless real-time communication, personalized mentorship programs, and progress tracking for an effective and enriching mentorship experience.',
-        image: {copeople},
-        git:"https:",
+        title:'UrbanCart',
+        description:'A E-commerce website for sensational and branded collection of clothes, style and footwear.',
+        image: {},
+        git:"https://github.com/cptn3m00/UrbanCart",
         technologies:[ 'MongoDB', 'Express.js', 'React.js', 'Node.js']
     }
 ]
