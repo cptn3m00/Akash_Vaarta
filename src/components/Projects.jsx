@@ -70,7 +70,7 @@ export const project = [
     {
         title:'UrbanCart',
         description:'A E-commerce website for sensational and branded collection of clothes, style and footwear.',
-        image: {},
+        image: {UrbanCart},
         git:"https://github.com/cptn3m00/UrbanCart",
         technologies:[ 'MongoDB', 'Express.js', 'React.js', 'Node.js']
     }
