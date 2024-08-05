@@ -65,14 +65,14 @@ export const project = [
         description:"Developed a food delivery model with a user-friendly interface, enhancing UX. Utilized Tailwind CSS to boost code efficiency by 42%. Integrated Node.js and Express.js for backend functionalities, including authentication, product management, and order processing. Implemented a secure payment gateway, improving platform reliability and user trust.",
         image: {projTomato},
         git:'https://github.com/cptn3m00/Tomato_FoodDel',
-        technologies:['MongoDb' ,'ReactJS' , 'Express.js', 'NodeJS']
+        technologies:['MongoDb', 'ReactJS', 'Express.js', 'NodeJS', 'API-Gateways', 'Stripe Payments']
     },
     {
         title:'UrbanCart',
-        description:'A E-commerce website for sensational and branded collection of clothes, style and footwear.',
+        description:'Developed an e-commerce platform using React.js for product browsing, cart management, and secure purchases. Created an admin panel for real-time product management. Backend handled authentication and cart functions, deployed on Render for scalability with JWT and MongoDB, ensuring a robust and scalable solution.',
         image: {UrbanCart},
         git:"https://github.com/cptn3m00/UrbanCart",
-        technologies:[ 'MongoDB', 'Express.js', 'React.js', 'Node.js']
+        technologies:[ 'MongoDB', 'Express.js', 'React.js', 'Tailwind.css', 'Node.js']
     }
 ]
 
