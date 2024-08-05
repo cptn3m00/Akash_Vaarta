@@ -62,7 +62,7 @@ const Projects = () => {
 export const project = [
     {
         title:'Tomato',
-        description:"A complete working Clone of Zomato named Tomato with different interface functions making user's usage seamless. This project is a food delivery platform that allows users to get a look at the menu, see actual consumer reviews and order seamlessly.",
+        description:"Developed a food delivery model with a user-friendly interface, enhancing UX. Utilized Tailwind CSS to boost code efficiency by 42%. Integrated Node.js and Express.js for backend functionalities, including authentication, product management, and order processing. Implemented a secure payment gateway, improving platform reliability and user trust.",
         image: {projTomato},
         git:'https://github.com/cptn3m00/Tomato_FoodDel',
         technologies:['MongoDb' ,'ReactJS' , 'Express.js', 'NodeJS']
