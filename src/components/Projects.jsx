@@ -57,7 +57,7 @@ const Projects = () => {
 
 export const project = [
     {
-        title: 'IdeaGenie',
+        title: 'IdeaGenie AI',
         description: 'Developed a sophisticated AI-driven Content Generator that provides users with highly accurate, real-time content generation. Leveraged React.js for a dynamic and responsive frontend, and Next.js for a robust and scalable backend. Implemented comprehensive security measures, including advanced tools and APIs, to ensure real-time threat detection and protection.',
         image: IdeaGenie,
         git: 'https://github.com/cptn3m00/IdeaGenie-AI',
